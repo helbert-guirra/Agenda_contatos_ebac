@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda- EBAC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./imagens/agenda.png" alt="agenda de contatos">
+            <h1>Agenda de Contatos</h1>
+        </header>
+
+        <form id="form-contato">
+            <input type="text" id="nome" placeholder="Nome" required> 
+            <input type="tel" id="telefone" placeholder="Telefone" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <table id="tabela-contato">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Agenda de Contatos - Todos os Direitos reservados</p>
+        <p>Desenvolvido por Helbert Guirra Lisboa</p>
+    </footer>
+
+    <script src="./script.js"></script> 
+</body>
+</html>

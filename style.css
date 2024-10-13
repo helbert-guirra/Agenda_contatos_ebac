@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background-color: #eaebec;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 60px;
+    margin-right: 36px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    max-width: 3640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding:    8px;
+}
+
+form button:hover {
+    background-color:  #1aaf4c;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+footer p {
+    margin: 5px 0;
+}
